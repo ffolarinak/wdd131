@@ -1,1 +1,117 @@
-/* WDD131 stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display:wght@600&display=swap');
+
+:root {
+    --primary-color: #1b4965;
+    --secondary-color: #62b6cb;
+    --background-color: #f4f7f9;
+    --text-color: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#course-title {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #163a50;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    background-color: var(--secondary-color);
+    color: #102a36;
+    padding: 0.7rem;
+    margin-top: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer p {
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 220px;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .card h2 {
+        grid-column: 1 / -1;
+    }
+}
