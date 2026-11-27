@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website plan for Taste of Nigeria, a website celebrating Nigerian traditional food and culture.">
+    <meta name="author" content="Folake Folarin Akinduro">
+    <title>Taste of Nigeria | Website Plan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --green: #176B45;
+            --cream: #FFF8EE;
+            --orange: #D97706;
+            --dark: #252525;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+            background-color: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--green);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1, h2, h3 {
+            font-family: "Poppins", sans-serif;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background-color: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            border-left: 5px solid var(--orange);
+        }
+
+        h2 {
+            color: var(--green);
+        }
+
+        h3 {
+            color: var(--orange);
+        }
+
+        .logo {
+            font-size: 2rem;
+        }
+
+        .color-sample {
+            display: inline-block;
+            width: 70px;
+            height: 35px;
+            vertical-align: middle;
+            border: 1px solid #777;
+            margin-right: 10px;
+        }
+
+        .green {
+            background-color: var(--green);
+        }
+
+        .cream {
+            background-color: var(--cream);
+        }
+
+        .orange {
+            background-color: var(--orange);
+        }
+
+        .wireframe {
+            border: 2px solid var(--green);
+            padding: 1rem;
+            margin: 1rem 0;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .wire-box {
+            background-color: #FDE7C3;
+            border: 1px solid var(--orange);
+            padding: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .desktop-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--green);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @media screen and (min-width: 700px) {
+            main {
+                padding: 0 2rem;
+            }
+
+            .wireframe {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">🍲</div>
+        <h1>Taste of Nigeria</h1>
+        <p>Website Planning Document</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Site Name</h2>
+            <h3>Taste of Nigeria</h3>
+            <p>
+                The name represents a website dedicated to introducing
+                Nigerian traditional foods, flavours, and food culture.
+                I chose this name because it is simple, memorable, and
+                communicates the main purpose of the website.
+            </p>
+            <p><strong>Proposed domain:</strong> tasteofnigeria.org</p>
+            <p><strong>Logo idea:</strong> A cooking pot representing
+                Nigerian food and cultural heritage.</p>
+        </section>
+
+        <section>
+            <h2>2. Site Purpose</h2>
+            <p>
+                Taste of Nigeria will provide information about popular
+                Nigerian traditional dishes, their ingredients,
+                preparation methods, and cultural importance. Visitors
+                will learn about foods from different parts of Nigeria
+                and discover the variety of flavours in Nigerian cuisine.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Scenarios</h2>
+            <p>These are questions visitors may ask when using the website:</p>
+            <ul>
+                <li>What ingredients are needed to prepare Nigerian Egusi soup?</li>
+                <li>What are some popular traditional foods in Nigeria?</li>
+                <li>How is Jollof rice prepared?</li>
+                <li>Which Nigerian foods are commonly eaten during celebrations?</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Color Schema</h2>
+
+            <p>
+                <span class="color-sample green"></span>
+                <strong>Deep Green (#176B45):</strong>
+                Used for the header, footer, headings, and navigation.
+            </p>
+
+            <p>
+                <span class="color-sample cream"></span>
+                <strong>Warm Cream (#FFF8EE):</strong>
+                Used as the main page background.
+            </p>
+
+            <p>
+                <span class="color-sample orange"></span>
+                <strong>Burnt Orange (#D97706):</strong>
+                Used for accents, highlights, and section borders.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Typography</h2>
+
+            <h3>Headings: Poppins</h3>
+            <p>
+                Poppins will be used for the main title and section
+                headings because it is clear and modern.
+            </p>
+
+            <h3>Body Text: Open Sans</h3>
+            <p>
+                Open Sans will be used for paragraphs, descriptions,
+                and general website content because it is easy to read.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Wireframes</h2>
+            <p>
+                The following wireframes show the proposed homepage
+                layout on mobile and desktop screens.
+            </p>
+
+            <h3>Mobile View</h3>
+            <div class="wireframe">
+                <div class="wire-box">Logo and Site Name</div>
+                <div class="wire-box">Menu</div>
+                <div class="wire-box">Welcome Banner and Image</div>
+                <div class="wire-box">Featured Nigerian Dishes</div>
+                <div class="wire-box">Food Description</div>
+                <div class="wire-box">Footer and Contact Information</div>
+            </div>
+
+            <h3>Desktop View</h3>
+            <div class="wireframe">
+                <div class="wire-box">Logo | Site Name | Navigation</div>
+                <div class="wire-box">Welcome Banner and Main Image</div>
+
+                <div class="desktop-layout">
+                    <div class="wire-box">Jollof Rice</div>
+                    <div class="wire-box">Egusi Soup</div>
+                    <div class="wire-box">Pounded Yam</div>
+                </div>
+
+                <div class="wire-box">Food Information and Descriptions</div>
+                <div class="wire-box">Footer and Contact Information</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taste of Nigeria | Website Planning Document</p>
+    </footer>
+</body>
+</html>
